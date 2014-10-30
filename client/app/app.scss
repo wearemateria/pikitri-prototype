@@ -25,9 +25,13 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
 @import 'modal/modal.scss';
 // endinjector
 
+html, body {
+	height: 100%;
+}
+
 .test {
 	background-color: rgb(221, 176, 80);
-	opacity: 0;
+	opacity: 0.3;
 }
 
 .background {
