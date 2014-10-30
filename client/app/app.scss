@@ -18,6 +18,7 @@ $fa-font-path: "/bower_components/font-awesome/fonts";
 // Component styles are injected through grunt
 // injector
 @import 'facebook/facebook.scss';
+@import 'instagram/instagram.scss';
 @import 'lookbook/lookbook.scss';
 @import 'main/main.scss';
 @import 'product/product.scss';
@@ -31,7 +32,7 @@ html, body {
 
 .test {
 	background-color: rgb(221, 176, 80);
-	opacity: 0.3;
+	opacity: 0;
 }
 
 .background {
