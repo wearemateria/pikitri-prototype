@@ -86,7 +86,12 @@
     </style>
     <script>
       $('body').mCustomScrollbar({
-        theme: 'dark'
+        theme: 'dark',
+        mouseWheel: {
+          scrollAmount: 200,
+          preventDefault: true,
+          normalizeDelta: true
+        }
       });
     </script>
 </body>
