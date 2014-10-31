@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('prototypeApp')
-	.controller('MainCtrl', function ($scope, $http, $sce) {
+	.controller('MainCtrl', function ($scope, $http, $sce, $timeout) {
 		$scope.modal = false;
 
 		$scope.config = {
@@ -28,6 +28,13 @@ angular.module('prototypeApp')
 							posterType: 'none'
 						}
 					);
+					
+					$timeout(function () {
+						$('video').width('initial');
+						$('video').css('max-height', '100%');
+						$('video').css('max-width', '100%');		
+					}, 1000);
+					
 			}
 		};	
 	});
