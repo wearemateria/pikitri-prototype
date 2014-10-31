@@ -15,7 +15,8 @@
     "font-awesome": ">=4.1.0",
     "lodash": "~2.4.1",
     "angular-ui-router": "~0.2.10",
-    "malihu-custom-scrollbar-plugin": "~3.0.5"
+    "malihu-custom-scrollbar-plugin": "~3.0.5",
+    "vide": "~0.2.0"
   },
   "devDependencies": {
     "angular-mocks": ">=1.2.*",
